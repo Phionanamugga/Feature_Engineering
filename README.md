@@ -90,6 +90,7 @@ Evaluate the model using confusion matrices, precision, recall, and F1-score.
 
 ## License
 MIT License
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
 Copyright (c) 2025 Phiona Namugga
 
