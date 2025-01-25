@@ -117,3 +117,5 @@ SOFTWARE.
 [![Coverage Status](https://coveralls.io/repos/Phionanamugga/feature_engineering/badge.svg?branch=feature1)](https://coveralls.io/github/Phionanamugga/feature_engineering?branch=feature1)
 
 ![Codecov](https://codecov.io/gh/Phionanamugga/feature_engineering/branch/feature1/graph/badge.svg)
+
+![Coveralls](https://coveralls.io/repos/github/Phionanamugga/feature_engineering/badge.svg)
