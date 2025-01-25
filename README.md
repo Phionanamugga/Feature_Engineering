@@ -113,4 +113,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Coverage
-[![Coverage Status](https://coveralls.io/repos/github/feature_engineering/badge.svg?branch=feature1)](https://coveralls.io/github/feature_engineering?branch=feature1)
+
+[![Coverage Status](https://coveralls.io/repos/Phionanamugga/feature_engineering/badge.svg?branch=feature1)](https://coveralls.io/github/Phionanamugga/feature_engineering?branch=feature1)
