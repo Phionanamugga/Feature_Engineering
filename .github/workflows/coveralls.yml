@@ -41,6 +41,6 @@ jobs:
       # 6. Upload coverage to Coveralls
       - name: Upload to Coveralls
         env:
-          COVERALLS_REPO_TOKEN: codecov: 945cb710-9b83-4af7-9049-216c1cb92118
+          COVERALLS_REPO_TOKEN: 945cb710-9b83-4af7-9049-216c1cb92118
         run: |
           coveralls
