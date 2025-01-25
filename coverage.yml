@@ -1,0 +1,34 @@
+run:
+  # Measure branch coverage (more detailed tracking of conditional paths)
+  branch: True
+  # Specify the source directories for coverage (replace with your project folder name)
+  source:
+    - src
+    - feature_engineering
+  # Omit certain files or directories (e.g., tests or migrations for Django)
+  omit:
+    - tests/*
+    - */migrations/*
+    - */__init__.py
+
+report:
+  # Show lines that were not covered in the output
+  show_missing: True
+  # Exclude lines marked with '# pragma: no cover'
+  exclude_lines:
+    - pragma: no cover
+    - if __name__ == '__main__':
+    - raise NotImplementedError
+  # Fail if coverage drops below the threshold (set as desired)
+  fail_under: 90
+  # Skip files that are 100% covered in reports
+  skip_covered: True
+
+html:
+  # Save an HTML report to view coverage in a browser
+  directory: coverage_html_report
+
+xml:
+  # Generate an XML report (useful for CI/CD)
+  output: coverage.xml
+
