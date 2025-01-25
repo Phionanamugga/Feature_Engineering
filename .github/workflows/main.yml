@@ -1,0 +1,28 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - feature1
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install
+      - run: npm test -- --coverage
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage/lcov-report/index.html
+
+- name: Upload coverage to Codecov
+  uses: codecov/codecov-action@v3
+  with:
+    token: codecov: 
+ token: 945cb710-9b83-4af7-9049-216c1cb92118
